@@ -1,0 +1,46 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: #6b5bb3; }
+      .node { fill: #ffffff; }
+      .connection { stroke: #ffffff; }
+      .shape { fill: #ffffff; }
+      .heart { fill: #e88b9e; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #6b5bb3; }
+      .node { fill: #ffffff; }
+      .connection { stroke: #ffffff; }
+      .shape { fill: #ffffff; }
+      .heart { fill: #e88b9e; }
+    }
+  </style>
+  <g clip-path="url(#clip0_remember)">
+    <rect class="background" width="180" height="180" rx="37" />
+    
+    <!-- Brain/memory shape representing relationships -->
+    <path class="shape" opacity="0.2"
+      d="M90 30C65 30 45 50 45 75C45 82.5 46 89.5 48 95.5C41 101.5 37 110.5 37 120C37 129.5 41 138.5 48 144.5C46 150.5 45 157.5 45 165C45 190 65 210 90 210C115 210 135 190 135 165C135 157.5 134 150.5 132 144.5C139 138.5 143 129.5 143 120C143 110.5 139 101.5 132 95.5C134 89.5 135 82.5 135 75C135 50 115 30 90 30Z" />
+    
+    <!-- Connection nodes -->
+    <circle class="node" cx="90" cy="60" r="14" />
+    <circle class="node" cx="55" cy="105" r="14" />
+    <circle class="node" cx="125" cy="105" r="14" />
+    <circle class="node" cx="90" cy="150" r="14" />
+    
+    <!-- Connection lines -->
+    <line class="connection" x1="90" y1="60" x2="55" y2="105" stroke-width="6" opacity="0.5" stroke-linecap="round" />
+    <line class="connection" x1="90" y1="60" x2="125" y2="105" stroke-width="6" opacity="0.5" stroke-linecap="round" />
+    <line class="connection" x1="55" y1="105" x2="90" y2="150" stroke-width="6" opacity="0.5" stroke-linecap="round" />
+    <line class="connection" x1="125" y1="105" x2="90" y2="150" stroke-width="6" opacity="0.5" stroke-linecap="round" />
+    
+    <!-- Heart accent in the center -->
+    <path class="heart"
+      d="M90 125C90 125 75 115 75 107.5C75 102.5 78 98 84 98C87.5 98 90 100 90 100C90 100 92.5 98 96 98C102 98 105 102.5 105 107.5C105 115 90 125 90 125Z" />
+  </g>
+  <defs>
+    <clipPath id="clip0_remember">
+      <rect width="180" height="180" fill="white" />
+    </clipPath>
+  </defs>
+</svg>
